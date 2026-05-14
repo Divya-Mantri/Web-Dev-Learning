@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--meta :- This is a tag that gives extra information about the web page.-->
+    <meta name="viewport" content="width=device-width , initial-scale= 1.0">
+    <!--name="viewport" :- This  says we are setting rules for the viewport . The viewport is the visible area of a webpage on a screen.  content="width=device-width":-This helps the page to be responsive on different devices. initial-scale="1.0" :- This sets the zoom level to 100% when the page first loads.-->
+    <title>Tables</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <caption>My Multi Level Table</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2">Column 0</th>
+                <th rowspan="2">Column 1</th>
+                <th colspan="2"> Column 2</th>
+            </tr>
+            <tr>
+                <th>Column 2a</th>
+                <th>Column 2b</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td rowspan="2"><b>Row 1</b></td>
+                <td><b>Row 1a</b></td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <td><b>Row 1b</b></td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Row 2</b></td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

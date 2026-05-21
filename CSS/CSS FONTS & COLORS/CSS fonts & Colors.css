@@ -1,0 +1,84 @@
+/* Element Selector  */
+/* div
+{
+    color:aquamarine;
+} */
+
+/* Not Working */
+/* 
+p
+{
+    color:blueviolet;
+}
+
+p>div
+{
+    color:chartreuse;
+} */
+
+/* Parent-child selector
+div>p
+{
+    color:blueviolet;
+} */
+
+/*Change by RGB value-red,gree,blue,alpha-shows intensity that is transparency value varies from 0-1*/
+
+h2{
+    text-transform:uppercase;   /*change the case*/
+}
+h3 {
+    color: rgba(84, 8, 119, 1);
+    background-color: rgb(191, 227, 178);
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.heading {
+    background-color: rgb(242, 130, 32);
+}
+
+/* Change by Heaxadecimal value :- use 6 characters form (0-f)*/
+h1 {
+    color: #2a1a3cef;
+    /* font-size:40px;      */
+    /* font-size:2em;   em font size changes relative to parent font size  */
+    /* font-size: 2rem;    rem font-size decides relative to root  */
+    /* font-size: 30%;     percentage says keep my font size 30% of my parent size */
+    /* font-size:10vw;         % percentage of viewport width */
+    font-size: 10vh;
+    /* percentage of viewport height; */
+
+    font-variant: petite-caps;
+}
+
+
+.firstpara {
+    font-variant: small-caps;           /*To change the font-style of the text*/
+    font-weight: bolder;
+    color: hsl(305, 43%, 21%);
+    /* hue takes value from 0-360 */
+    /* saturation & lightness takes in percentage*/
+}
+
+/* background color */
+body {
+    background-image: url(../to-do_project/Todo\ Top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li{
+    line-height: 20px;   /*space between lines*/;
+    
+}
+.Diet
+{
+    letter-spacing: 5px;        /*space between two letters/characters*/
+}
+.secondpara
+{
+     word-spacing: 10px;         /*space between words */
+    /* font-stretch:ultra-expanded;    stretch the font by making it either wider or narrow*/ 
+}
+

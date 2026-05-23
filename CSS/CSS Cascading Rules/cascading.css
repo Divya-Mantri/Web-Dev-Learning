@@ -1,0 +1,41 @@
+/* element selector - lowest priority same as group element bt depends upon ordering  */
+h1
+{
+    background-color: blueviolet !important;
+    color:whitesmoke;
+    font-variant: petite-caps;
+    background-color: darkmagenta;
+}
+
+/* id selector   -having highest priority*/
+/* #mainheading
+{
+    background-color: orange;
+    color:beige;
+} */
+
+/* class selector - having third highest priority  */
+/* .heading 
+{
+    background-color: aquamarine;
+} */
+
+/* attribute selector -2nd highest priority */
+/* h1[draggable="true"]
+{
+    background-color: slategray;
+} */
+
+/* Descendent selector - 2nd last priority same as child selector bt depends upon ordering*/
+/* body h1
+{
+    background-color: cornflowerblue;
+    color:black
+}
+
+/*child selector - 2nd last priority same as descendent selector bt depends upong ordering*/
+/* body>h1
+{
+    background-color: darkolivegreen;
+    color: whitesmoke;
+}  */

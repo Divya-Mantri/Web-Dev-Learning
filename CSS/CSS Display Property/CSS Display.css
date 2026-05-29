@@ -1,0 +1,34 @@
+.first
+{
+    /* display: inline;        For behaving block element as inline elements */
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin:10px;
+}
+.second
+{
+    /* display: inline; */
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin:10px;
+}
+span
+{
+    display: inline-block;
+    background-color: green;
+    height: 100px;
+    width:100px;        /*We can't give width and height to inline elements*/
+    margin:10px;        /*Horizontal margin is possible but vertical margin doesn't display in inline elements.*/
+    /* display:block; */
+}
+
+
+/*Block Element
+-Height, Width, Margin are all applicable to it. */
+
+/*Inline Elemetn
+-Height, Width is not applicable to them but only horizonal margin is applicable , vertical margin is not visible in them. */
+
+/*Display - inline-block => In this property the content will behave like inline only bt we can apply block elements properties to it using this. */

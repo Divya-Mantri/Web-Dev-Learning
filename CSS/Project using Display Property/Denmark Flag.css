@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.first,.third
+{
+    display: inline-block;
+    background-color: red;
+    width: 25vw;
+    height: 40vh;
+}
+.second,.fourth
+{
+    display: inline-block;
+    background-color: red;
+    width: 60vw;
+    height: 40vh;
+}
+.first,.third
+{
+    margin-right: 13vw;
+}
+.second,.first
+{
+    margin-bottom: 20vh;
+}

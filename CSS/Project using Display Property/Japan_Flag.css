@@ -1,0 +1,13 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.japan
+{
+    background-color: red;
+    height: 50vh;
+    width: 50vh;
+    margin: 25vh auto ;
+    border-radius: 50%;
+}

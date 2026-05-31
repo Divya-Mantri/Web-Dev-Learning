@@ -1,0 +1,12 @@
+header
+{ 
+    background-color: grey;
+    position: fixed;
+    right: 0px;
+    top:0px ;
+    left: 0px;
+}
+main
+{
+    padding-top: 150px;
+}

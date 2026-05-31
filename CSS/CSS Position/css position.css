@@ -1,0 +1,47 @@
+.container
+{
+    background-color: pink;
+    height: 1000px;
+    margin-left: 200px;
+    margin-top:300px;
+    position: relative;
+}
+.box
+{
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+.box1
+{
+    background-color: grey;
+}
+.box2
+{
+    background-color: red;
+    position: sticky;
+    top: 500px;
+    /* position: absolute;            
+    top:20px; 
+    /* position: relative;  
+     z-index: -1;  */
+}
+/*About Relative Position- first of all the default position is static and we set it to relative then it means postioin of element relative to its original position and it holds its position even after shifting here and there  */
+/*It has these four attributes -top, bottom, left, right*/
+/*About Absolute Position -  the element on which absolute positioning is applied , it dosen't hold its position thus, the other element shifts to its position after it moved. */
+/*In absolute positioning, element position moves relative to its parent if parent is set to absolute/relative otherwise relative to viewport */
+/*About Fixed Position - It changes its position relative to viewport purely and it doesn't hold its position.*/
+.box3
+{
+    background-color: green;
+}
+.box4
+{
+    background-color: orange;
+}
+.newcontainer
+{
+    background-color: aqua;
+    height: 500px;
+    width: 800px;
+}

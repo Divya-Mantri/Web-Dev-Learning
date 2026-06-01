@@ -1,0 +1,9 @@
+.container
+{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    padding: 15px;
+    overflow: auto;
+}

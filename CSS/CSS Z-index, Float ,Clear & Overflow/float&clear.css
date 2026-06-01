@@ -1,0 +1,23 @@
+.ask
+{
+    height: 200px;
+    width: auto;
+    margin: 15px;
+    float: right;
+}
+p
+{
+    text-align: justify;
+}
+.graph
+{
+    height: 200px;
+    width: auto;
+    margin: 15px;
+    float: right;
+    clear: right;     
+}
+
+
+/*Clear tells the browser - "
+If there's a floated element before me (left or right), dont' let me appear next to it. I want to start on a new line, below it."*/

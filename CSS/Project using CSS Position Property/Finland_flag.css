@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: blue;
+}
+.first
+{
+    background-color: red;
+}
+.second
+{
+    background-color: lightgreen;
+}
+.third
+{
+    background-color: lightpink;
+}
+.fourth
+{
+    background-color: blueviolet;
+}
+.first,.third
+{
+    background-color: white;
+    display: inline-block;
+    height: 42.5vh;
+    width:30vw;
+    position: absolute;
+    left: 0px;
+}
+.second,.fourth
+{
+    background-color: white;
+    display: inline-block;
+    height: 42.5vh;
+    width:60vw;
+    position: absolute;
+    right: 0px;
+}
+
+.first,.second
+{
+    top: 0px;
+}
+
+.third,.fourth
+{
+    bottom: 0px;
+}
+

@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+}
+.first
+{
+    background-color: green;
+    width: 33vw;
+    height: 100vh;
+    display: inline-block;
+}
+.second
+{
+    background-color: white;
+    width: 33vw;
+    height: 100vh;
+    display: inline-block;
+}
+.third
+{
+    background-color: orange;
+    width: 33vw;
+    height: 100vh;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}

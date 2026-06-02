@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: inline-block;
+}
+.card
+{
+    margin: 50px;
+    height: 50vh;
+    width: 50vh;
+    /* border: 1px solid red; */
+
+}
+img
+{
+    height: 35vh;
+    width: 50vh; 
+    border-radius: 20px;
+    padding: 10px;
+}
+.card:hover
+{
+    /* background-color: slategrey; */
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-radius: 3%;
+}
+
+section
+{
+    height: 4vh;
+    width: auto;
+    /* border: 1px solid green; */
+}
+p
+{
+    display: inline-block;   
+    /* border: 1px solid blue; */
+}
+.info
+{
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.rating
+{
+    float: right;
+    background-color: green;
+    border-radius: 4px;
+    padding: 3px;
+    color: white;
+    font-size:small;
+    width: 35px;
+    text-align: center;
+    /* margin: 2px; */
+}
+.distance
+{
+    float: right;
+    color:dimgray;
+    font-size: x-small;
+    margin: 2px;
+    font-weight: bold;
+}
+.price
+{
+    float: right;
+    font-size: small;
+    color:darkslategray;
+    margin: 2px;
+
+}
+.name
+{
+    font-size:medium;
+    font-weight:500;
+}
+.menu p
+{
+    font-size: small;
+    color:darkslategrey;
+}
+.address p
+{
+    font-size: small;
+    color: dimgray;
+}

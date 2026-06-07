@@ -1,0 +1,76 @@
+/* h1
+{
+    color: orange;
+    background-color: grey;
+    text-align: justify;
+} */
+
+/* text-align: left,right,center,justify */
+
+/* .container
+{
+    text-align: center;
+    background-color: pink;
+}
+h1
+{
+    background-color: orange;
+    
+}
+p{
+    background-color: grey;
+}
+button
+{
+    background-color: red;
+} */
+
+/* 
+p
+{
+    background-color: grey;
+    text-align-last: center;
+} */
+
+
+/* h1
+{
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} */
+
+/* 
+span
+{
+    font-size: 10px;
+    vertical-align: sub ;
+} */
+
+/* text-decoration-line: overline; */
+/* text-decoration-line: underline; */
+/* text-decoration-line: line-through; */
+/* text-decoration-line: overline underline; */
+
+/* h1
+{
+    text-decoration-line: overline underline;
+    text-decoration-color: red;
+    text-decoration-style:double;
+} */
+
+/* h1
+{
+    text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize;
+} */
+
+/* p
+{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    word-spacing: 15px; 
+    text-shadow: 5px 4px;
+} */

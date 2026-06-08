@@ -1,0 +1,54 @@
+.container
+{
+    height: 800px;
+    width: 800px;
+    background-color: orangered;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* .box
+{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 50%; 
+    box-shadow: -25px -15px;        horizontal & vertical 
+    box-sizing: -25px -15px;        color added 
+    box-shadow: -25px -15px 50px pink;   blur is added  
+    box-shadow: -25px -15px 15px 10px honeydew;     spread radius 
+    box-shadow: inset 0px 50px 50px 25px yellow;
+} */
+
+/* box-shadow: h-offset, v-offset, blur-radius, spread-radius color; */
+
+
+
+.box
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 1s;        
+    /* transition-property: background-color; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+}
+
+.box:hover
+{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+}

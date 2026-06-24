@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+.box
+{
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    cursor: pointer;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* transition: all  3s ease-in 1s; */
+    /* transform: rotate(30deg); */
+    /* transform: skewY(30deg); */
+    /* transition: all 3s; */
+    font-size: 50px;
+    color: white;
+    animation: moving 3s linear infinite;
+}
+
+@keyframes moving
+{
+    from
+    {
+        transform: rotate(0deg);
+    }   
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+.box:hover
+{
+/*     
+    background-color: purple;  
+    width: 300px;
+    height: 500px; */
+    /* transform: scale(2); */
+    /* transform: translate(100px,200px); */
+    /* transform:scaleY(2) ; */
+    /* transform: translateY(200px); */
+    /* transform: translateZ(300px); */
+    /* transform: rotateX(30deg); */
+}
+
+
+/* Difference in Transition and Animation */
+/* Animation works automatically whereas for transition we need a trigger movement to work it . */
